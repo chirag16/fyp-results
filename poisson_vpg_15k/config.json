@@ -9,13 +9,21 @@
     "actor_critic":	"mlp_actor_critic",
     "env_fn":	"<function <lambda> at 0x7f7a9b061e18>",
     "epochs":	15000,
+<<<<<<< HEAD
+    "exp_name":	"poisson_vpg_15k",
+=======
     "exp_name":	"a2c_4x100_poisson",
+>>>>>>> 6cb1a5fcceb9fdccd9f4b9854b09ed971f640ba9
     "gamma":	0.99,
     "lam":	0.97,
     "logger":	{
         "<spinup.utils.logx.EpochLogger object at 0x7f7a9385da20>":	{
             "epoch_dict":	{},
+<<<<<<< HEAD
+            "exp_name":	"poisson_vpg_15k",
+=======
             "exp_name":	"a2c_4x100_poisson",
+>>>>>>> 6cb1a5fcceb9fdccd9f4b9854b09ed971f640ba9
             "first_row":	true,
             "log_current_row":	{},
             "log_headers":	[],
@@ -28,7 +36,11 @@
         }
     },
     "logger_kwargs":	{
+<<<<<<< HEAD
+        "exp_name":	"poisson_vpg_15k",
+=======
         "exp_name":	"a2c_4x100_poisson",
+>>>>>>> 6cb1a5fcceb9fdccd9f4b9854b09ed971f640ba9
         "output_dir":	"path/to/output_dir"
     },
     "max_ep_len":	1000,
@@ -38,4 +50,8 @@
     "steps_per_epoch":	500,
     "train_v_iters":	80,
     "vf_lr":	0.001
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 6cb1a5fcceb9fdccd9f4b9854b09ed971f640ba9
