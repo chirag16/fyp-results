@@ -1,0 +1,40 @@
+{
+    "ac_kwargs":	{},
+    "actor_critic":	"mlp_actor_critic",
+    "algo":	"trpo",
+    "backtrack_coeff":	0.8,
+    "backtrack_iters":	10,
+    "cg_iters":	10,
+    "damping_coeff":	0.1,
+    "delta":	0.5,
+    "env_fn":	"<function <lambda> at 0x7fb4f0794e18>",
+    "epochs":	15000,
+    "exp_name":	"gamma_trpo_15k",
+    "gamma":	0.99,
+    "lam":	0.97,
+    "logger":	{
+        "<spinup.utils.logx.EpochLogger object at 0x7fb4e8f90940>":	{
+            "epoch_dict":	{},
+            "exp_name":	"gamma_trpo_15k",
+            "first_row":	true,
+            "log_current_row":	{},
+            "log_headers":	[],
+            "output_dir":	"gamma_trpo_15k",
+            "output_file":	{
+                "<_io.TextIOWrapper name='gamma_trpo_15k/progress.txt' mode='w' encoding='UTF-8'>":	{
+                    "mode":	"w"
+                }
+            }
+        }
+    },
+    "logger_kwargs":	{
+        "exp_name":	"gamma_trpo_15k",
+        "output_dir":	"gamma_trpo_15k"
+    },
+    "max_ep_len":	1000,
+    "save_freq":	10,
+    "seed":	0,
+    "steps_per_epoch":	500,
+    "train_v_iters":	80,
+    "vf_lr":	0.001
+}
